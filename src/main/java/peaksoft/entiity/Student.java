@@ -24,7 +24,8 @@ public class Student {
     @SequenceGenerator(
             name = "student_gen",
             sequenceName = "student_seq",
-            allocationSize = 1
+            allocationSize = 1,
+            initialValue = 4
     )
     private Long id;
     private String fullName;
